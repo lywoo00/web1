@@ -5,6 +5,7 @@
   <meta charset="utf-8">
 </head>
 <body>
-  <input type="button" value="인사" onclick="alert('안녕')" />
+  <input type="text" id="name" />
+  <input type="button" value="인사" onclick="alert('안녕.' + document.getElementById('name').value)" />
 </body>
 </html>
